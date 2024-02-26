@@ -1,0 +1,44 @@
+body{
+    background-color:000024; /*makes the backgroung a very dark blue*/
+    }
+    h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align:center;
+    color: white;
+    border: solid rgb(65, 65, 239) 2px;
+border-radius:10px; /*for rounded edges of title border*/
+    }
+
+    input[type="button"]
+    {
+    background-color:gray;
+    color: white;
+    border: solid gray 2px;
+    width:100%;
+    height: 100%;
+    font-size: 30px;
+    border-radius:10px;/*for rounded edges of each button*/
+    }
+
+    input[type="text"]
+    {
+    background-color:white;
+    border: solid gray 2px;
+    width:100%;
+    font-size: 40px;
+    height:100%;
+    border-radius:10px; /*for rounded edges of display border*/
+    }
+    table {
+margin-left: auto; /*to center left margin*/
+    margin-right: auto;/*to center right margin*/
+    border: solid gray 2px;/*outside border color*/
+    width: 50%; /*width of calculator*/
+    height: 80%;/*height of calculaator*/
+    border-radius:10px;/*for rounded edges of the calculator*/
+    }
+    td{
+    border:solid blue 1px;/*to create a blue accent on the borders of each button*/
+    border-radius:10px;/*to give the accents a rounded corner*/
+    }
